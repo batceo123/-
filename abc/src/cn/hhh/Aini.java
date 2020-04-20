@@ -9,5 +9,6 @@ package cn.hhh;
  */
 public interface Aini {
 	 default void aiMi() {}
+	 default void aiNi() {}
 
 }
