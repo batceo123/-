@@ -1,0 +1,68 @@
+/**
+ * 
+ */
+package com.aaa;
+
+/**
+ * @author abc
+ *
+ *实现People接口的parent类
+ */
+public class Parent implements People{
+	private String eat_place;
+	private String stay_place;
+
+	@Override
+	public String eating() {
+		return this.eat_place;
+		
+	}
+
+	@Override
+	public String staying() {
+		return this.stay_place;
+		
+	}
+	//构造函数
+	public Parent(String eat_place, String stay_place) {
+		super();
+		this.eat_place = eat_place;
+		this.stay_place = stay_place;
+	}
+
+	/**
+	 * @return eat_place
+	 */
+	public String getEat_place() {
+		return eat_place;
+	}
+
+	/**
+	 * @param eat_place 要设置的 eat_place
+	 */
+	public void setEat_place(String eat_place) {
+		this.eat_place = eat_place;
+	}
+
+	/**
+	 * @return stay_place
+	 */
+	public String getStay_place() {
+		return stay_place;
+	}
+
+	/**
+	 * @param stay_place 要设置的 stay_place
+	 */
+	public void setStay_place(String stay_place) {
+		this.stay_place = stay_place;
+	}
+	
+
+
+
+	
+	
+
+
+}

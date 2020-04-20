@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.aaa;
+
+/**
+ * @author abc
+ *
+ */
+//测试类
+public class Test{
+	  
+	  public static void main(String[] args) { 
+	    System.out.println("------------吃饭和住宿记录如下：---------------------"); 
+	    People people0=new Student("食堂", "宿舍");
+	    People people1=new Student("教师食堂", "学校公寓");
+	    People people2=new Student("招待所", "招待所");
+	    System.out.println("学生——"+people0.eating()+"——"+people0.staying());
+	    System.out.println("老师——"+people1.eating()+"——"+people1.staying());
+	    System.out.println("家长——"+people2.eating()+"——"+people2.staying());
+	    
+	    
+
+	
+	  }
+
+}

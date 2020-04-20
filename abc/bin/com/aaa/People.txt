@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.aaa;
+
+/**
+ * @author abc
+ *
+ */
+public interface People {
+	
+	public abstract String eating();
+	public abstract String staying();
+
+}
